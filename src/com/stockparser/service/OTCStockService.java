@@ -21,6 +21,7 @@ import org.apache.http.message.BasicNameValuePair;
 import au.com.bytecode.opencsv.CSVReader;
 
 import com.stockparser.dao.TradeRecord;
+import com.stockparser.util.DateUtil;
 
 public class OTCStockService implements StockService {
 
@@ -49,7 +50,7 @@ public class OTCStockService implements StockService {
 		pairList.add(new BasicNameValuePair("curstk", String.valueOf(stockID)));
 		pairList.add(new BasicNameValuePair("fromw", "0"));
 		pairList.add(new BasicNameValuePair("numbern", "100"));
-		pairList.add(new BasicNameValuePair("stk_date", "1021021"));
+		pairList.add(new BasicNameValuePair("stk_date", DateUtil.getNowDateString()));
 		
 		HttpPost httpPost = new HttpPost(target);
 		httpPost.setHeader("Host", "www.gretai.org.tw");
