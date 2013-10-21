@@ -9,7 +9,8 @@ Tool to fetch data for Taiwan Stock.
 Support SII and OCT
 
 [Taiwan Official Stock Site (Listed Companies)](http://bsr.twse.com.tw/bshtm/)
-[OTC Official Site](Over The Counter)(http://www.gretai.org.tw/ch/index.php)
+
+[OTC Official Site (Over The Counter)](http://www.gretai.org.tw/ch/index.php)
 
 ## Usage
 
