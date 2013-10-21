@@ -5,7 +5,7 @@ import com.stockparser.service.SIIStockService;
 import com.stockparser.service.StockService;
 
 
-public class Demo {
+public class SIIDemo {
 	
 	public static void main(String[] args) {
 		
