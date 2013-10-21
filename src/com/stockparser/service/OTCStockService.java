@@ -22,13 +22,13 @@ import au.com.bytecode.opencsv.CSVReader;
 
 import com.stockparser.dao.TradeRecord;
 
-public class OCTStockService implements StockService {
+public class OTCStockService implements StockService {
 
 	private int stockID;
 	private String target = "http://www.gretai.org.tw/ch/stock/aftertrading/broker_trading/download_ALLCSV.php";
 	private List<TradeRecord> tradeRecords = new ArrayList<TradeRecord>();
 	
-	public OCTStockService(int stockID) {
+	public OTCStockService(int stockID) {
 		this.stockID = stockID;
 	}
 	

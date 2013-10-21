@@ -1,12 +1,15 @@
 Taiwan Stock Data Fetcher
 =====================
-Current Version : 0.0.1
+Current Version : 0.8.0
 
 ## Introduction
 
-Tool to fetch data from [Taiwan Official Stock Site (Listed Companies)](http://bsr.twse.com.tw/bshtm/)
+Tool to fetch data for Taiwan Stock.
 
-Will provide function for fetching data of OCT companies in the future.
+Support SII and OCT
+
+[Taiwan Official Stock Site (Listed Companies)](http://bsr.twse.com.tw/bshtm/)
+[OTC Official Site](Over The Counter)(http://www.gretai.org.tw/ch/index.php)
 
 ## Usage
 

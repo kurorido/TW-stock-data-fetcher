@@ -1,14 +1,14 @@
 package com.stockparser.demo;
 
 import com.stockparser.dao.TradeRecord;
-import com.stockparser.service.OCTStockService;
+import com.stockparser.service.OTCStockService;
 import com.stockparser.service.StockService;
 
-public class OCTDemo {
+public class OTCDemo {
 	public static void main(String[] args) {
 		System.out.println("卷商\t價格\t買入\t賣出");
 		
-		StockService service = new OCTStockService(5443);
+		StockService service = new OTCStockService(5443);
 		for(TradeRecord rec : service.getTradeRecords()) {
 			System.out.print(rec.getTraderID() + "\t"); // stock trader
 			System.out.print(rec.getPrices() + "\t"); // price
