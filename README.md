@@ -18,7 +18,7 @@ You can simply use StockService Class to get a trade records list.
 
 Demo code
 ```
-int stockID = 2330; // TSMC
+String stockID = "2330"; // TSMC
 
 StockService service = new SIIStockService(stockID);
 
