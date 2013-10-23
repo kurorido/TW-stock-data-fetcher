@@ -28,11 +28,11 @@ import com.stockparser.dao.TradeRecord;
 
 public class SIIStockService implements StockService {
 	
-	private int stockID;
+	private String stockID;
 	private String pageSite = "http://bsr.twse.com.tw/bshtm/bsMenu.aspx?";
 	private List<TradeRecord> tradeRecords = new ArrayList<TradeRecord>();
 	
-	public SIIStockService(int stockID) {
+	public SIIStockService(String stockID) {
 		this.stockID = stockID;
 	}
 

@@ -25,11 +25,11 @@ import com.stockparser.util.DateUtil;
 
 public class OTCStockService implements StockService {
 
-	private int stockID;
+	private String stockID;
 	private String target = "http://www.gretai.org.tw/ch/stock/aftertrading/broker_trading/download_ALLCSV.php";
 	private List<TradeRecord> tradeRecords = new ArrayList<TradeRecord>();
 	
-	public OTCStockService(int stockID) {
+	public OTCStockService(String stockID) {
 		this.stockID = stockID;
 	}
 	

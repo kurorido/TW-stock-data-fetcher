@@ -8,7 +8,7 @@ public class OTCDemo {
 	public static void main(String[] args) {
 		System.out.println("卷商\t價格\t買入\t賣出");
 		
-		StockService service = new OTCStockService(5443);
+		StockService service = new OTCStockService(String.valueOf(5443));
 		for(TradeRecord rec : service.getTradeRecords()) {
 			System.out.print(rec.getTraderID() + "\t"); // stock trader
 			System.out.print(rec.getPrices() + "\t"); // price
